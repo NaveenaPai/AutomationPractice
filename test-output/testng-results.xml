@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-17T21:13:28 EDT" name="Default suite" finished-at="2022-09-17T21:14:23 EDT" duration-ms="54518">
+    <groups>
+    </groups>
+    <test started-at="2022-09-17T21:13:28 EDT" name="Default test" finished-at="2022-09-17T21:14:23 EDT" duration-ms="54518">
+      <class name="demo.ECommerceApp">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demo.ECommerceApp@59505b48]" started-at="2022-09-17T21:13:28 EDT" name="setup" finished-at="2022-09-17T21:13:39 EDT" duration-ms="10660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SearchAddSummerDress()[pri:1, instance:demo.ECommerceApp@59505b48]" started-at="2022-09-17T21:13:39 EDT" name="SearchAddSummerDress" finished-at="2022-09-17T21:13:44 EDT" duration-ms="4947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchAddSummerDress -->
+        <test-method signature="AddProductsToBeCompared()[pri:2, instance:demo.ECommerceApp@59505b48]" started-at="2022-09-17T21:13:44 EDT" name="AddProductsToBeCompared" finished-at="2022-09-17T21:13:51 EDT" duration-ms="7352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductsToBeCompared -->
+        <test-method signature="ComparePricesAddToCart()[pri:0, instance:demo.ECommerceApp@59505b48]" started-at="2022-09-17T21:13:51 EDT" name="ComparePricesAddToCart" finished-at="2022-09-17T21:13:57 EDT" depends-on-methods="demo.ECommerceApp.AddProductsToBeCompared" duration-ms="5643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComparePricesAddToCart -->
+        <test-method signature="Checkout()[pri:0, instance:demo.ECommerceApp@59505b48]" started-at="2022-09-17T21:13:57 EDT" name="Checkout" finished-at="2022-09-17T21:14:02 EDT" depends-on-methods="demo.ECommerceApp.ComparePricesAddToCart" duration-ms="5357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method signature="UpdatePersonalDetails()[pri:0, instance:demo.ECommerceApp@59505b48]" started-at="2022-09-17T21:14:02 EDT" name="UpdatePersonalDetails" finished-at="2022-09-17T21:14:05 EDT" depends-on-methods="demo.ECommerceApp.Checkout" duration-ms="2545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatePersonalDetails -->
+        <test-method signature="UpdateAddressDetails()[pri:0, instance:demo.ECommerceApp@59505b48]" started-at="2022-09-17T21:14:05 EDT" name="UpdateAddressDetails" finished-at="2022-09-17T21:14:08 EDT" depends-on-methods="demo.ECommerceApp.UpdatePersonalDetails" duration-ms="2780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAddressDetails -->
+        <test-method signature="UpdateShippingDetails()[pri:0, instance:demo.ECommerceApp@59505b48]" started-at="2022-09-17T21:14:08 EDT" name="UpdateShippingDetails" finished-at="2022-09-17T21:14:10 EDT" depends-on-methods="demo.ECommerceApp.UpdateAddressDetails" duration-ms="2112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateShippingDetails -->
+        <test-method signature="UpdatePaymentDetails()[pri:0, instance:demo.ECommerceApp@59505b48]" started-at="2022-09-17T21:14:10 EDT" name="UpdatePaymentDetails" finished-at="2022-09-17T21:14:15 EDT" depends-on-methods="demo.ECommerceApp.UpdateShippingDetails" duration-ms="4939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatePaymentDetails -->
+        <test-method signature="ViewOrderHistory()[pri:0, instance:demo.ECommerceApp@59505b48]" started-at="2022-09-17T21:14:15 EDT" name="ViewOrderHistory" finished-at="2022-09-17T21:14:18 EDT" depends-on-methods="demo.ECommerceApp.UpdatePaymentDetails" duration-ms="2861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewOrderHistory -->
+        <test-method signature="LogOut()[pri:0, instance:demo.ECommerceApp@59505b48]" started-at="2022-09-17T21:14:18 EDT" name="LogOut" finished-at="2022-09-17T21:14:22 EDT" depends-on-methods="demo.ECommerceApp.ViewOrderHistory" duration-ms="4504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:demo.ECommerceApp@59505b48]" started-at="2022-09-17T21:14:22 EDT" name="teardown" finished-at="2022-09-17T21:14:23 EDT" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demo.ECommerceApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
